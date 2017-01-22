@@ -12,6 +12,7 @@ el.facebook.com/*", "https://static.*.facebook.com/*", "https://*.facebook.com/a
 //  "run_at": "document_start",
   "js": ["js/jquery-3.1.1.js",
     	"typo/typo.js",
+    	"data/news_tags.js",
     	"utils.js",
     	"analyze.js",
 "js/d3.min.js",
