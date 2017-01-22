@@ -1,0 +1,97 @@
+,Organization,Bias,Established,url
+0,100PercentFedUp,1.0,,http://100percentfedup.com/
+1,ABC News,-0.25,True,http://abcnews.go.com/
+2,Addicting Info,-1.0,,http://addictinginfo.org/
+3,Al Jazeera America,-0.9,True,http://www.aljazeera.com/
+4,Allen West Republic,0.9,True,http://allenwestrepublic.com/
+5,American News,1.0,,http://americannews.com/
+6,Andy Borowitz,-1.0,,http://www.newyorker.com/humor/borowitz-report
+7,Being Liberal,-1.0,,https://www.facebook.com/beingliberal.org/
+8,Bill O'Reilly,0.9,True,http://www.billoreilly.com/
+9,Bipartisan Report,-1.0,,http://bipartisanreport.com/
+10,BizPac Review,1.0,,http://www.bizpacreview.com/
+11,Bloomberg,-0.25,True,https://www.bloomberg.com/
+12,Bloomberg Politics,-0.25,True,https://www.bloomberg.com/politics
+13,Breitbart,1.0,True,http://www.breitbart.com/
+14,Business Insider,-0.25,True,http://www.businessinsider.com/
+15,Buzzfeed,-0.25,True,https://www.buzzfeed.com/
+16,Buzzfeed Politics,-0.25,True,https://www.buzzfeed.com/politics
+17,CBS News,-0.25,True,http://www.cbsnews.com/
+18,Clickhole,-0.6,,http://www.clickhole.com/
+19,CNN,-0.9,True,http://www.cnn.com/
+20,CNN Politics,-0.9,True,http://www.cnn.com/politics
+21,Collective Evolution,-0.6,,http://www.collective-evolution.com/
+22,Conservative News Today,0.9,True,https://www.facebook.com/ConservativeNewsToday/
+23,Conservative Tribune,0.9,True,http://conservativetribune.com/
+24,Daily Buzz Live,-0.6,,http://dailybuzzlive.com/
+25,Daily Show,-0.9,True,http://www.cc.com/shows/the-daily-show-with-trevor-noah
+26,DailyCaller,0.9,True,http://dailycaller.com/
+27,DailyCaller Politics,0.9,True,http://dailycaller.com/section/politics/
+28,DC Gazette,-0.6,,http://thedcgazette.com/
+29,Disclove.tv,-0.6,,http://www.disclose.tv/
+30,Drudge Report,0.9,True,http://www.drudgereport.com/
+31,Fox News,0.9,True,http://www.foxnews.com/
+32,Full Frontal with Samantha Bee,-0.9,True,http://www.tbs.com/shows/full-frontal-with-samantha-bee.html
+33,Glenn Beck Program,0.9,True,https://soundcloud.com/glennbeck
+34,HuffPost,-0.9,True,http://www.huffingtonpost.com/
+35,HuffPost Politics,-0.9,True,http://www.huffingtonpost.com/section/politics
+36,If You Only News,-1.0,,http://www.ifyouonlynews.com/
+37,IJR Life,1.0,,https://www.facebook.com/independentjournallife/
+38,IJR Politics,1.0,,https://ijr.com/category/politics/
+39,Info Wars,1.0,True,http://www.infowars.com/
+40,Inside Amy Schumer,-0.9,True,http://www.cc.com/shows/inside-amy-schumer
+41,LA Times,-0.9,True,http://www.latimes.com/
+42,Last Week Tonight with John Oliver,-0.9,True,http://www.hbo.com/last-week-tonight-with-john-oliver
+43,Late Night with Seth Meyers,-0.9,True,http://www.nbc.com/late-night-with-seth-meyers
+44,Late Show with Stephen Colbert,-0.9,True,https://en.wikipedia.org/wiki/The_Late_Show_with_Stephen_Colbert
+45,Liberal America,-1.0,,http://www.liberalamerica.org/
+46,LifeSiteNews,0.9,True,https://www.lifesitenews.com/
+47,Mic Media,-0.9,True,https://mic.com/about
+48,MSNBC,-0.9,True,http://www.msnbc.com/
+49,National Report,-1.0,,http://nationalreport.net/
+50,Natural News,0.6,,http://www.naturalnews.com/
+51,NBC News,-0.9,True,http://www.nbcnews.com/
+52,New Century Times,-1.0,,http://newcenturytimes.com/
+53,New York Times,-0.9,True,http://www.nytimes.com/
+54,New Yorker,-0.9,True,http://www.newyorker.com/
+55,Newslo,-0.6,,http://www.newslo.com/about-us/
+56,NewsMax,0.9,True,http://www.newsmax.com/
+57,Newsweek,-0.9,True,http://www.newsweek.com/
+58,Now The End Begins,1.0,,http://www.nowtheendbegins.com/
+59,NowThis Election,-0.9,True,https://www.facebook.com/NowThisPolitics/
+60,NPR,-0.9,True,http://www.npr.org/
+61,Occupy Democrats,-1.0,,https://www.facebook.com/OccupyDemocrats/
+62,Pamela Geller,0.9,True,http://pamelageller.com/
+63,PBS,-0.9,True,http://www.pbs.org/
+64,Politico,-0.9,True,http://www.politico.com/
+65,Project Veritas,1.0,,http://projectveritas.com/
+66,RedFlag News,1.0,,https://www.redflagnews.com/
+67,RedState,1.0,,http://www.redstate.com/
+68,Rush Limbaugh Show,0.9,True,http://www.rushlimbaugh.com/
+69,Sean Hannity Show,0.9,True,http://www.hannity.com/
+70,Slate,-0.9,True,http://www.slate.com/
+71,The Atlantic,-0.25,True,https://www.theatlantic.com/
+72,The Blaze,1.0,True,http://www.theblaze.com/
+73,The Daily Current,-1.0,,http://dailycurrant.com/
+74,The Economist,-0.9,True,http://www.economist.com/
+75,The Free Thought Project,1.0,,http://thefreethoughtproject.com/
+76,The Guardian,-0.9,True,https://www.theguardian.com/
+77,The Onion,-1.0,,http://www.theonion.com/
+78,The Other 98,-1.0,,http://other98.com/
+79,The Shovel,-1.0,,http://www.theshovel.com.au/
+80,The Washington Times,0.9,True,http://www.washingtontimes.com/
+81,Time,-0.9,True,http://time.com/
+82,Twitchy,1.0,,http://twitchy.com/
+83,US Uncut,-1.0,,http://usuncut.com/
+84,USA Newsflash,1.0,,http://www.usanewsflash.com/
+85,USA Today,-0.25,True,http://www.usatoday.com/
+86,Vice,-0.9,True,https://www.vice.com/en_us
+87,Vox,-0.9,True,http://www.vox.com/
+88,Wall Street Journal,0.25,True,http://www.wsj.com/
+89,Washington Post,-0.9,True,http://www.washingtonpost.com/
+90,Wasington Post Politics,-0.9,True,http://www.washingtonpost.com/politics/
+91,Western Journalism,0.9,True,http://www.westernjournalism.com/
+92,Winning Democrats,-1.0,,https://www.facebook.com/WinningDemocrats/
+93,Wired,-0.25,True,https://www.wired.com/
+94,WorldTruth.tv,0.6,,http://worldtruth.tv/
+95,Yahoo News,0.25,True,https://www.yahoo.com/news/
