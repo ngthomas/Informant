@@ -1,16 +1,53 @@
 
-.grammarScore {
-   font-size: 10px;
-   color: red;
-   font-weight: bold;
-
-
-}
 
 .articleLabel {
-font-weight: bold;
 font-size: 10px;
+color: white;
 }
+
+.fake {
+	background: #e41a1c;
+}
+.unreliable {
+  background: #ff7f00;
+
+}
+.conspiracy {
+  background: #ff7f00;
+
+}
+.rumor {
+  background: #ff7f00;
+
+}
+.junksci {
+  background: #ff7f00;
+}
+.clickbait {
+	background: #984ea3;
+}
+.satire {
+	background: #f781bf;
+}
+.bias {
+	background: #4daf4a;
+}
+.state {
+  background: #377eb8;
+}
+.hate {
+	background: #e31a1c;
+}
+.political {
+	background: #33a02c;
+}
+.reliable {
+  background: #4daf4a;
+}
+.unidentified {
+	background: #999999;
+}
+
 
 .poliGauge {
 width: 150px
