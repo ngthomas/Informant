@@ -1,6 +1,6 @@
 
 .grammarScore {
-   font-size: 10px;
+   font-size: 14px;
    color: red;
    font-weight: bold;
 
@@ -9,7 +9,8 @@
 
 .articleLabel {
 font-weight: bold;
-font-size: 10px;
+font-size: 14px;
+color: white;
 }
 
 .poliGauge {
@@ -55,13 +56,19 @@ height: 80px;
 .political {
 	background: #33a02c;
 }
-.reliable {
+.credible {
   background: #4daf4a;
 }
 .unidentified {
 	background: #999999;
 }
+.far-left {
+  background: #a6cee3;
+}
 
+.far-right {
+  background: #fb9a99;
+}
 
 /* layout */
 #inform-main-wrap {

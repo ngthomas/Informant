@@ -71,13 +71,19 @@ console.log(imgURL);
 //     }
 //     console.log(categoryP);
     
+    var all_tags = ''
+    var i;
+    for (i in category) {
+      all_tags += '&nbsp;<span class="' + category[i] + '"> ' + category[i] + ' </span>&nbsp;';
+    }
+    console.log(all_tags);
 	$(x).find("._42nr").prepend(
                                 '<div id="inform-main-wrap">',
                                 '<div id="informSidebar"><canvas id="'+speedID+'"  class="poliGauge"></canvas></div>',
                                 '<div id="inform-content-wrap">',
                                 '<span class="flag-icon flag-icon-squared" style="background-image:url('+imgURL+')"></span>',
                                 '<span class="grammarScore">Grammar Score: '+grammarScore+' </span>',
-                                '<div class="articleLabel">'+category.join(',')+' </div></div>',
+                                '<div class="articleLabel">'+all_tags+' </div></div>',
                                 '</div>');
     
     // var format2_Avail =$(x).find("._ohe");
