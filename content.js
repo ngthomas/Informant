@@ -15,7 +15,7 @@ jQuery.expr[':'].regex = function(elem, index, match) {
 var filter   = function(post){//stubb
 	return true;
 }
-var analysis = function(post){//STUBB
+var analyze = function(post){//STUBB
 	return {};
 }
 var renderAnalysis = function(a){///STUBB	
