@@ -6,9 +6,8 @@ var find_news = function(){
 	$("div:regex(id, hyperfeed_story*)").each( function() {
 		var attr = $(this).attr('MODIFIED') || false;
 		if (!attr){
-
-			if (filter(this)){
-				var analysis = analyze(this);
+			var analysis = analyze(this);
+			if (analysis){
 				renderAnalysis(analysis);
 			}
 			
