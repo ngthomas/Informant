@@ -8,7 +8,7 @@ var find_news = function(){
 		if (!attr){
 			var analysis = analyze(this);
 			if (analysis){
-				renderAnalysis(analysis);
+				render(analysis);
 			}
 			
 		};
