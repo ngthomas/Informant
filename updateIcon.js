@@ -32,7 +32,7 @@ var gaugeOpts = {
 };
 
 
-    var grammerScore = report["spelling"];
+    var grammarScore = report["spelling"];
     var category = report["tag"];
 
     
@@ -63,14 +63,22 @@ console.log(imgURL);
     var format1_Avail =$(x).find("._42nr");
     console.log("42:",
                 format1_Avail.length);
+                
+                
+//     var categoryP = [];
+//     for i in category {
+//     categoryP.push('<p>' + category[i] + '</p>');
+//     }
+//     console.log(categoryP);
     
 	$(x).find("._42nr").prepend(
-	'<div class ="informant_space">',
-	'<canvas id="'+speedID+'"  class="poliGauge"></canvas>',
-	'<span class="flag-icon flag-icon-squared" style="background-image:url('+imgURL+')"></span>',
-	'<span class="grammarScore">Grammer Score:'+grammerScore+' </span>',
-	'<span class="articleLabel">Category:'+category+' </span>',
-	'</div>');
+                                '<div id="inform-main-wrap">',
+                                '<div id="informSidebar"><canvas id="'+speedID+'"  class="poliGauge"></canvas></div>',
+                                '<div id="inform-content-wrap">',
+                                '<span class="flag-icon flag-icon-squared" style="background-image:url('+imgURL+')"></span>',
+                                '<span class="grammarScore">Grammar Score: '+grammarScore+' </span>',
+                                '<div class="articleLabel">'+category.join(',')+' </div></div>',
+                                '</div>');
     
     // var format2_Avail =$(x).find("._ohe");
     //console.log("1d:",
@@ -80,10 +88,11 @@ console.log(imgURL);
         console.log("add stuff");
     $(":first", x).prepend(
                                 '<div class ="informant_space">',
-                                '<canvas id="'+speedID+'"  class="poliGauge"></canvas>',
+                                '<div><canvas id="'+speedID+'"  class="poliGauge"></canvas></div>',
+                                '<div>',
                                 '<span class="flag-icon flag-icon-squared" style="background-image:url('+imgURL+')"></span>',
-                                '<span class="grammarScore">Grammer Score: '+grammerScore+' </span>',
-                                '<span class="articleLabel">Category: '+category+' </span>',
+                                '<span class="grammarScore">Grammar Score: '+grammarScore+' </span>',
+                                '<div class="articleLabel">Category: '+category+' </div></div>',
                                 '</div>');
     }
     

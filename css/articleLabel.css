@@ -16,3 +16,25 @@ font-size: 10px;
 width: 150px
 height: 80px;
 }
+
+/* layout */
+#inform-main-wrap {
+    /* overflow to handle inner floating block */
+    overflow: hidden;
+}
+
+#informSidebar {
+    float: left;
+    width: 60%;
+}
+
+#inform-content-wrap {
+    float: right;
+    width: 40%;
+}   
+
+.whitearea {
+    width:250px;
+    height:200px;
+    float:right;
+}
