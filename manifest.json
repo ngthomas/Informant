@@ -1,14 +1,31 @@
 {
   "manifest_version": 2,
-  "name": "Inform",
+  "name": "informant",
+  "description": "This extension augments facebook newsfeed",
   "version": "0.1",
-  "content_scripts": [{
-    "matches": ["https://www.facebook.com/*","http://www.facebook.com/"],
-    "js": ["js/jquery-3.1.1.js",
+  "content_scripts":[{
+  "exclude_globs": [ "http://*.channel.facebook.com/*", "http://static.*.facebook.com/*", "http://*.facebook.com/ai.php*", "http://*.facebook.com/connect/*", "https://*.chann
+el.facebook.com/*", "https://static.*.facebook.com/*", "https://*.facebook.com/ai.php*", "https://*.facebook.com/connect/*", "https://*.facebook.com/saved*" ],
+"include_globs": [ "http://*.facebook.com/*", "http://facebook.com/*", "https://*.facebook.com/*", "https://facebook.com/*" ],
+  "matches": [ "http://*.facebook.com/*", "https://*.facebook.com/*" ],
+
+//  "run_at": "document_start",
+  "js": ["js/jquery-3.1.1.js",
     	"typo/typo.js",
     	"utils.js",
     	"analyze.js",
-		"content.js"]
+"js/d3.min.js",
+        "js/gauge.js",
+        "updateIcon.js",
+        "content.js"],
+    "css":["css/flag-icon.min.css","css/articleLabel.css"]
   }],
-  "web_accessible_resources": ["typo/dictionaries/en_US/*"]
+
+  "browser_action": {
+    "default_icon": "img/news.png",
+    "default_popup": "index.html"
+  },
+
+  "web_accessible_resources": ["typo/dictionaries/en_US/*",
+  "flags/*/*.svg"]
 }
