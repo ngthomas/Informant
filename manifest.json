@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Inform",
+  "version": "0.1",
+  "content_scripts": [{
+    "matches": ["https://www.facebook.com/*","http://www.facebook.com/"],
+    "js": ["js/jquery-3.1.1.js",
+		"content.js"]
+  }]
+}
