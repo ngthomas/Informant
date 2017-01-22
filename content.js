@@ -1,4 +1,11 @@
-var render = function(a){///STUBB	
+var render = function(a){///STUBB
+	if (a.hasOwnProperty('tag')){
+		console.log(a.url);
+		console.log(a.tag);
+		console.log(a.score);
+	}else{
+		console.log('ignore' , a.url);
+	}
 	return;
 }
 
@@ -7,10 +14,9 @@ var find_news = function(){
 		var attr = $(this).attr('MODIFIED') || false;
 		if (!attr){
 			var analysis = analyze(this);
-			if (analysis){
+			if (!jQuery.isEmptyObject(analysis)){
 				render(analysis);
 			}
-			
 		};
 		$(this).attr('MODIFIED',true);
 	});
