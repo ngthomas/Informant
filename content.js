@@ -17,6 +17,7 @@ var find_news = function(){
 			var analysis = analyze(this);
 			if (!jQuery.isEmptyObject(analysis)){
 				render(analysis);
+				UpdateIcons(analysis);
 			}
 		};
 		$(this).attr('MODIFIED',true);
