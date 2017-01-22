@@ -1,6 +1,6 @@
 
 .grammarScore {
-   font-size: 40px;
+   font-size: 10px;
    color: red;
    font-weight: bold;
 
@@ -8,9 +8,8 @@
 }
 
 .articleLabel {
-border-style: solid;
 font-weight: bold;
-font-size: 20px;
+font-size: 10px;
 }
 
 .poliGauge {

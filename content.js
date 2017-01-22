@@ -15,9 +15,9 @@ var find_news = function(){
 		var attr = $(this).attr('MODIFIED') || false;
 		if (!attr){
 			var analysis = analyze(this);
-			if (!jQuery.isEmptyObject(analysis)){
+			if (!jQuery.isEmptyObject(analysis) && analysis.hasOwnProperty('tag')){
 				render(analysis);
-				UpdateIcons(analysis);
+				UpdateIcons(this, analysis);
 			}
 		};
 		$(this).attr('MODIFIED',true);

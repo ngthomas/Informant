@@ -2,7 +2,7 @@
 
 						
 
-var UpdateIcons = function(x, grammerScore, labels, poliScore, nation) {
+var UpdateIcons = function(x, report){//grammerScore, labels, poliScore, nation) {
 console.log(x);
     var storyId = $(x).attr("id");
     if (storyId == undefined) {
@@ -12,7 +12,6 @@ console.log(x);
 
 var speedID = [storyId, "canvas"].join("");
 console.log(speedID);
-    
     
 
 var gaugeOpts = {
@@ -33,18 +32,26 @@ var gaugeOpts = {
 };
 
 
-    if (grammerScore === undefined) {
-          grammerScore = 0;
-    }
-    if (labels === undefined) {
-          category = "Unidenitified";
-    }
-    if (poliScore === undefined) {
+    var grammerScore = report["spelling"];
+    var category = report["tag"];
+
+    
+    if (category == undefined || category.length == 0){
+    category = "Unidentified";
+}
+
+    var poliScore = report["score"];
+    if (poliScore == "null") {
         gaugeOpts["colorStart"] ='#E0E0E0';
         gaugeOpts["colorStop"] ='#E0E0E0';
         gaugeOpts["strokeColor"] ='#E0E0E0';
         poliScore = -1; //cannot be zero..
     }
+    else {
+        poliScore = 100*(poliScore+1)/2
+
+}
+    var nation;
     if (nation == undefined) {
     	  nation = "us";
     }
@@ -59,10 +66,10 @@ console.log(imgURL);
     
 	$(x).find("._42nr").prepend(
 	'<div class ="informant_space">',
+	'<canvas id="'+speedID+'"  class="poliGauge"></canvas>',
 	'<span class="flag-icon flag-icon-squared" style="background-image:url('+imgURL+')"></span>',
-	'<span class="grammarScore">'+grammerScore+'</span>',
-	'<span class="articleLabel">'+category+'</span>',
-	'<canvas id="'+speedID+'" class="poliGauge"></canvas>',
+	'<span class="grammarScore">Grammer Score:'+grammerScore+' </span>',
+	'<span class="articleLabel">Category:'+category+' </span>',
 	'</div>');
     
     // var format2_Avail =$(x).find("._ohe");
@@ -73,10 +80,10 @@ console.log(imgURL);
         console.log("add stuff");
     $(":first", x).prepend(
                                 '<div class ="informant_space">',
-                                '<span class="flag-icon flag-icon-squared" style="background-image:url('+imgURL+')"></span>',
-                                '<span class="grammarScore">'+grammerScore+'</span>',
-                                '<span class="articleLabel">'+category+'</span>',
                                 '<canvas id="'+speedID+'"  class="poliGauge"></canvas>',
+                                '<span class="flag-icon flag-icon-squared" style="background-image:url('+imgURL+')"></span>',
+                                '<span class="grammarScore">Grammer Score: '+grammerScore+' </span>',
+                                '<span class="articleLabel">Category: '+category+' </span>',
                                 '</div>');
     }
     
