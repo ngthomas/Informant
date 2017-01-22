@@ -1,6 +1,3 @@
-var parse_title = function(hyperfeed_jquery_obj) {
-};
-
 var analyze = function(hyperfeed_jquery_obj){
 	var title_div = $(hyperfeed_jquery_obj).find('.mbs._6m6._2cnj._5s6c')
   var desc_div = $(hyperfeed_jquery_obj).find('._6m7._3bt9')
