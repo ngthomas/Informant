@@ -12,16 +12,31 @@ jQuery.expr[':'].regex = function(elem, index, match) {
     return regex.test(jQuery(elem)[attr.method](attr.property));
 }
 
+var filter   = function(post){//stubb
+	return true;
+}
+var analysis = function(post){//STUBB
+	return {};
+}
+var renderAnalysis = function(a){///STUBB	
+	return;
+}
+
 
 var find_news = function(){
 	$("div:regex(id, hyperfeed_story*)").each( function() {
 		var attr = $(this).attr('MODIFIED') || false;
 		if (!attr){
 			console.log(   this    );
-			//STUBB ANALYZE(this);
-			//STUBB ADD ANALYSIS
+			
+			
+			if (filter(this)){
+				var analysis = analyze(this);
+				renderAnalysis(analysis);
+			}
+			
 		};
-		$(this).attr('MODIFIED',true)
+		$(this).attr('MODIFIED',true);
 	});
 }; 
 
