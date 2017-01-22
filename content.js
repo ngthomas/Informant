@@ -13,9 +13,9 @@ var find_news = function(){
 	$("div:regex(id, hyperfeed_story*)").each( function() {
 		var attr = $(this).attr('MODIFIED') || false;
 		if (!attr){
-			console.log(   this    );
-			
-			
+			//console.log(   this    );
+			var texts = $(this).text()
+			console.log(texts)
 			if (filter(this)){
 				var analysis = analyze(this);
 				renderAnalysis(analysis);
