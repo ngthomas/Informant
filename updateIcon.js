@@ -24,9 +24,9 @@ var gaugeOpts = {
     color: '#ABB2B9' // Fill color
   },
   limitMax: false,     // If true, the pointer will not go past the end of the gauge
-  colorStart: '#E6B0AA',   // Colors
-  colorStop: '#D6EAF8',    // just experiment with them
-  strokeColor: '#D98880',  // to see which ones work best for you '#D98880'
+  colorStart: '#D98880',   // Colors
+  colorStop: '#D98880',    // just experiment with them
+  strokeColor: '#D6EAF8',  // to see which ones work best for you '#D98880'
   generateGradient: true,
   highDpiSupport: true     // High resolution support
 };
