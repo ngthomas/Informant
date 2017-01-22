@@ -13,13 +13,10 @@ var find_news = function(){
 	
 	$("div:regex(id, hyperfeed_story*)").each( function() {
 		var attr = $(this).attr('MODIFIED') || false;
-		
 		if (!attr){
 			var analysis = analyze(this);
 			if (!jQuery.isEmptyObject(analysis)){
 				render(analysis);
-				//$(this).find("._42nr").prepend('<div class ="informant_space">filler<span class="poliScoreContainer"></span></div>');
-				UpdateIcons(this);
 			}
 		};
 		$(this).attr('MODIFIED',true);
