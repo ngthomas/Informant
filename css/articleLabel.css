@@ -1,0 +1,19 @@
+
+.grammarScore {
+   font-size: 40px;
+   color: red;
+   font-weight: bold;
+
+
+}
+
+.articleLabel {
+border-style: solid;
+font-weight: bold;
+font-size: 20px;
+}
+
+.poliGauge {
+width: 150px
+height: 80px;
+}
