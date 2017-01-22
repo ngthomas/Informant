@@ -1,9 +1,23 @@
 
+.grammarScore {
+   font-size: 10px;
+   color: red;
+   font-weight: bold;
+
+
+}
 
 .articleLabel {
+font-weight: bold;
 font-size: 10px;
-color: white;
 }
+
+.poliGauge {
+width: 150px
+height: 80px;
+}
+
+
 
 .fake {
 	background: #e41a1c;
@@ -48,11 +62,6 @@ color: white;
 	background: #999999;
 }
 
-
-.poliGauge {
-width: 150px
-height: 80px;
-}
 
 /* layout */
 #inform-main-wrap {
