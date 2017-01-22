@@ -1,20 +1,11 @@
-var filter   = function(post){//stubb
-	return true;
-}
-var analyze = function(post){//STUBB
-	return {};
-}
-var renderAnalysis = function(a){///STUBB	
+var render = function(a){///STUBB	
 	return;
 }
-
 
 var find_news = function(){
 	$("div:regex(id, hyperfeed_story*)").each( function() {
 		var attr = $(this).attr('MODIFIED') || false;
 		if (!attr){
-			console.log(   this    );
-			
 			
 			if (filter(this)){
 				var analysis = analyze(this);
