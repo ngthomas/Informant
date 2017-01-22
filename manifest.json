@@ -6,6 +6,7 @@
     "matches": ["https://www.facebook.com/*","http://www.facebook.com/"],
     "js": ["js/jquery-3.1.1.js",
     	"typo/typo.js",
+    	"data/news_tags.js",
     	"utils.js",
     	"analyze.js",
 		"content.js"]
