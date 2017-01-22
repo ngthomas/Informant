@@ -12,14 +12,14 @@ el.facebook.com/*", "https://static.*.facebook.com/*", "https://*.facebook.com/a
 //  "run_at": "document_start",
   "js": ["js/jquery-3.1.1.js",
     	"typo/typo.js",
+      "js/d3.min.js",
+      "js/gauge.js",
     	"data/news_tags.js",
     	"utils.js",
     	"analyze.js",
-"js/d3.min.js",
-        "js/gauge.js",
-        "updateIcon.js",
-        "content.js"],
-    "css":["css/flag-icon.min.css","css/articleLabel.css"]
+      "updateIcon.js",
+      "content.js"],
+      "css":["css/flag-icon.min.css","css/articleLabel.css"]
   }],
 
   "browser_action": {
